@@ -115,7 +115,7 @@
             function speek(num){
                 var say;
                 switch(num){
-                    case 0: say = "Hi Maral! this buttom built for your need, but <br>\nDO NOT PRESS"; break;
+                    case 0: say = "Hi Maral! this buttom is for you, but <br>\nDO NOT PRESS"; break;
                     case 1: say = "really?<br>\nDO NOT PRESS"; break;
                     case 2: say = "... you pressed it again.<br>\nOkay punk, press it again."; break;
                     case 3: say = "Yeah, that's it.<br>\nCome on, one more time."; break;
@@ -270,7 +270,7 @@
                     case 151: say = "...or was he doing the limbo?"; break;
                     case 152: say = "seems you really want that UNDO! send me 1342 (on telegram) :("; break;
 
-                    default: say ="Hi Maral. this buttom specifically build for your need, but PLEASE<br>\nDO NOT PRESS"; num = 0; 
+                    default: say ="Hi Maral. this buttom is for you but PLEASE<br>\nDO NOT PRESS"; num = 0; 
                 }
                 document.getElementById("thebutton").onclick = function() {speek(num+1);};
                 document.getElementById("talk").innerHTML = say;
@@ -432,7 +432,7 @@
         </div>
     </div>
     <div id="talk" class="centered">
-        Hi Maral! this buttom built for your need, but PLEASE
+        Hi Maral! this buttom is for you, but PLEASE
     </div>
 </body>
 </html>
