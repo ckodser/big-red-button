@@ -39,7 +39,7 @@
 <html>
     <head>
         <title>The Big Red Button</title>
-        <h1 id="initial"> Hi Maral. this buttom specifically build for your need, but PLEASE </h1>
+        <h1 id="initial"> "Hi Maral! this buttom built for your need, but PLEASE </h1>
         <style type="text/css">
             body{
                 text-align:center;
@@ -116,8 +116,8 @@
             function speek(num){
                 var say;
                 switch(num){
-                    case 0: say = "Hi Maral. this buttom specifically build for your need, but <br>\nDO NOT PRESS"; break;
-                    case 1: say = "mmmm, really?<br>\nDO NOT PRESS"; break;
+                    case 0: say = "Hi Maral! this buttom built for your need, but <br>\nDO NOT PRESS"; break;
+                    case 1: say = "really?<br>\nDO NOT PRESS"; document.getElementById("initial").innerHTML = ""; break;
                     case 2: say = "... you pressed it again.<br>\nOkay punk, press it again."; break;
                     case 3: say = "Yeah, that's it.<br>\nCome on, one more time."; break;
                     case 4: say = "Again."; break;
